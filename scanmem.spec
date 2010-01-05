@@ -7,6 +7,8 @@ Group:		Development/Debuggers
 Source0:	http://taviso.decsystem.org/files/scanmem/%{name}-%{version}.tar.gz
 # Source0-md5:	a28baa2cf69b58b2773e379a49dae11c
 URL:		http://taviso.decsystem.org/scanmem.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
