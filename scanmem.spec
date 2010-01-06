@@ -9,6 +9,7 @@ Source0:	http://taviso.decsystem.org/files/scanmem/%{name}-%{version}.tar.gz
 URL:		http://taviso.decsystem.org/scanmem.html
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	readline-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
