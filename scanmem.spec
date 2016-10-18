@@ -2,7 +2,7 @@
 Summary:	Interactive debugging utility
 Name:		scanmem
 Version:	0.13
-Release:	1
+Release:	2
 License:	GPL v3
 Group:		Development/Debuggers
 # v0.15.2 at	https://github.com/scanmem/scanmem/archive/v%{version}.tar.gz
